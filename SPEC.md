@@ -188,7 +188,7 @@ Painel principal com **checklist de pendências** (ex.: "Enviar logo em alta res
 | Contrato assinado | Ambas as partes |
 | Nova mensagem | Outra parte (com resumo) |
 
-Todos os e-mails: remetente da SanFran Jr. em subdomínio próprio (ex.: `avisos@expositor.sanfranjr.com.br`), layout padrão com a identidade da Semana do Estágio, link direto para a tela relevante no portal e link para gerenciar preferências.
+Todos os e-mails: remetente da SanFran Jr. em subdomínio próprio (ex.: `avisos@expositor.sanfranjr.com.br`), respostas indo para `semanadoestagio@sanfranjr.com`, layout padrão com a identidade da Semana do Estágio, link direto para a tela relevante no portal e link para gerenciar preferências.
 
 ---
 
@@ -361,7 +361,7 @@ privacy_consents    id, user_id, policy_version, accepted_at, ip
 | 4 | Estandes | Só a organização reserva, durante a reunião; quem se reúne primeiro escolhe primeiro. Reserva por dia, sem prazo de expiração. |
 | 5 | Planta | Existe (slides 33 e 34 da apresentação 2026). |
 | 6 | Assinatura | Pela SanFran Jr.: dois presidentes + uma testemunha. Provedor a escolher na Fase 5. |
-| 7 | Domínio | Subdomínio de `sanfranjr.com.br` (ex.: `expositor.sanfranjr.com.br`); e-mails de subdomínio próprio. |
+| 7 | Domínio | Portal em subdomínio de `sanfranjr.com.br` (ex.: `expositor.sanfranjr.com.br`); e-mails automáticos saem de subdomínio próprio do `.com.br` (via Resend). O e-mail da equipe (`semanadoestagio@sanfranjr.com`, Google Workspace no domínio `.com`) fica como endereço de resposta (reply-to) e não é afetado. |
 | 8 | Histórico | Há planilhas; importador na Fase 1. |
 
 ### Ainda em aberto
