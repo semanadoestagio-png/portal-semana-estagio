@@ -23,12 +23,18 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
+  // suppressHydrationWarning: extensões de navegador (tradutor, modo escuro, corretor)
+  // costumam acrescentar atributos em <html> e <body>. Vale só para os atributos
+  // destes dois elementos, não para o conteúdo da página.
   return (
     <html
       lang="pt-BR"
       className={`${montserrat.variable} ${notoSerif.variable} h-full antialiased`}
+      suppressHydrationWarning
     >
-      <body className="flex min-h-full flex-col">{children}</body>
+      <body className="flex min-h-full flex-col" suppressHydrationWarning>
+        {children}
+      </body>
     </html>
   );
 }

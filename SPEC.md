@@ -287,7 +287,7 @@ privacy_consents    id, user_id, policy_version, accepted_at, ip
   - Logo da Semana do Estágio no topo; logo da SanFran Jr. discreto no rodapé.
   - Os SVGs da Semana do Estágio usam a fonte **Aleo** no texto: usar PNG ou carregar a Aleo para não renderizar errado.
   - Aparência sóbria e profissional (o público é de grandes escritórios e bancos).
-- **Continuidade:** o portal será passado a outro membro na próxima gestão. Preferir soluções simples e documentadas. Contas de serviços (GitHub, Supabase, Vercel, Resend) em nome de um e-mail institucional da SanFran Jr., não pessoal.
+- **Continuidade:** o portal será passado a outro membro na próxima gestão. Preferir soluções simples e documentadas. Contas de serviços (GitHub, Supabase, Vercel, Resend) em nome do e-mail institucional **semanadoestagio@sanfranjr.com**, não pessoal.
 - **Custo:** zero durante o desenvolvimento. Na temporada da feira, o mínimo necessário: Supabase Pro (backup e sem pausa) e Resend Pro (volume de e-mails). Plano da Vercel a decidir com a diretoria (o gratuito proíbe uso comercial).
 
 ## 8. Stack técnica
