@@ -68,7 +68,7 @@ npx supabase gen types typescript --linked > lib/database.types.ts
 - Esta versão do Next.js (16) tem mudanças grandes (ex.: `middleware` virou `proxy`, Cache Components ligado). Consulte `node_modules/next/dist/docs/` antes de usar uma API (ver `AGENTS.md`).
 
 ## Estado atual
-- Fase atual: **0, Fundação** (plano em aprovação)
+- Fase atual: **0, Fundação**. Código pronto e commitado (22/10/2026); falta criar GitHub/Supabase/Vercel, aplicar a migration no banco de teste e publicar o site de teste.
 - Ordem das fases (SPEC v0.2): 0 Fundação → 1 Cadastro → 2 Reuniões e estandes → 3 Mural e e-mails → 4 Inscrição e Portal do Expositor → 5 Contratos → 6 Painel master → 7 Lançamento.
 - Decisões já tomadas (21/10/2026), detalhes na SPEC §11:
   - Login por código de 6 dígitos; aprovação manual do autocadastro; organização também cadastra empresas e convida.
