@@ -68,7 +68,9 @@ npx supabase gen types typescript --linked > lib/database.types.ts
 - Esta versão do Next.js (16) tem mudanças grandes (ex.: `middleware` virou `proxy`, Cache Components ligado). Consulte `node_modules/next/dist/docs/` antes de usar uma API (ver `AGENTS.md`).
 
 ## Estado atual
-- Fase atual: **0, Fundação**. Código no GitHub (`semanadoestagio-png/portal-semana-estagio`, privado); banco de teste `portal-sde-teste` (ref `hufvyzgrarsthvgbffbf`, São Paulo) com a migration da fundação aplicada e RLS conferido (23/10/2026). Falta: publicar o site de teste na Vercel.
+- **Fase 0 concluída (23/10/2026).** Próxima: **Fase 1, Cadastro e contatos**.
+- Código no GitHub (`semanadoestagio-png/portal-semana-estagio`, privado). Site de teste: https://portal-semana-estagio.vercel.app (Vercel Hobby, deploy automático a cada push na `main`). Banco de teste `portal-sde-teste` (ref `hufvyzgrarsthvgbffbf`, São Paulo).
+- Fontes via `next/font/google` como fontes **variáveis** (sem lista de `weight`): lista de pesos quebra o build na Vercel.
 - No PowerShell deste computador, use `npx.cmd` (a política de execução bloqueia `npx.ps1`).
 - Ordem das fases (SPEC v0.2): 0 Fundação → 1 Cadastro → 2 Reuniões e estandes → 3 Mural e e-mails → 4 Inscrição e Portal do Expositor → 5 Contratos → 6 Painel master → 7 Lançamento.
 - Decisões já tomadas (21/10/2026), detalhes na SPEC §11:

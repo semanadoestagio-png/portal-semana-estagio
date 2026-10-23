@@ -8,6 +8,8 @@ cadastro, reuniões comerciais, estandes, avisos, inscrição, contratos e paine
 - Roteiro de construção por fases: [`docs/ROTEIRO.md`](docs/ROTEIRO.md)
 - Logos e identidade visual: [`docs/marca/`](docs/marca)
 
+**Site de teste:** https://portal-semana-estagio.vercel.app (atualiza sozinho a cada envio para a branch `main`).
+
 ## Tecnologias
 
 Next.js 16 (App Router) + TypeScript + Tailwind CSS + shadcn/ui, Supabase (banco, login, arquivos),
