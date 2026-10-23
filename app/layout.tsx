@@ -7,10 +7,10 @@ const montserrat = Montserrat({
   subsets: ["latin"],
 });
 
+// Fonte variável (sem lista de pesos): uma lista de pesos quebrava o build na Vercel.
 const notoSerif = Noto_Serif({
   variable: "--font-noto-serif",
   subsets: ["latin"],
-  weight: ["400", "700"],
 });
 
 export const metadata: Metadata = {
